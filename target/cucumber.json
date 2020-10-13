@@ -1,0 +1,151 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "login with valid credentials",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "navigate to PIM page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "navigate to employee list page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-08T10:41:54.876Z",
+        "line": 9,
+        "name": "Dependets",
+        "description": "",
+        "id": "add-multiple-dependents;dependets",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "enter an employee as \"7510\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "click on search Buttons",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "click on employee which was founded",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "click on Dependents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "click on Assigned Dependents Add Button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "add miltiple data in fields and verify it",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Relationship",
+                  "Date of Birth"
+                ]
+              },
+              {
+                "cells": [
+                  "Michael",
+                  "Child",
+                  "2015-12-31"
+                ]
+              },
+              {
+                "cells": [
+                  "Bruce",
+                  "Child",
+                  "2015-10-08"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dependents"
+          }
+        ]
+      }
+    ],
+    "name": "Add multiple dependents",
+    "description": "",
+    "id": "add-multiple-dependents",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Dependets.feature",
+    "tags": [
+      {
+        "name": "@Dependents",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
